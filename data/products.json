@@ -1,0 +1,474 @@
+[
+    {
+        "id": 1,
+        "name": "Apple MacBook Pro 2017",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics GPU",
+        "price": 95000
+    },
+    {
+        "id": 2,
+        "name": "Apple MacBook Pro 2018",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
+        "price": 130000
+    },
+    {
+        "id": 3,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
+        "price": 140000
+    },
+    {
+        "id": 4,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
+        "price": 145000
+    },
+    {
+        "id": 5,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 16GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
+        "price": 170000
+    },
+    {
+        "id": 6,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 1TB SSD • 15.4 inch • 4GB Radeon Graphics",
+        "price": 149000
+    },
+    {
+        "id": 7,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 256GB SSD • 15.4 inch • 4GB Radeon Graphics",
+        "price": 130000
+    },
+    {
+        "id": 8,
+        "name": "Apple MacBook Pro 2017",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 8GB RAM • 256GB SSD • 13 inch • 4GB Radeon Graphics",
+        "price": 85000
+    },
+    {
+        "id": 9,
+        "name": "Apple MacBook Pro 2016",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 256GB SSD • 13 inch • 4GB Radeon Graphics",
+        "price": 80000
+    },
+    {
+        "id": 10,
+        "name": "Apple MacBook Pro 2017",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 512GB SSD • 13 inch • 4GB Radeon Graphics Graphics",
+        "price": 90000
+    },
+    {
+        "id": 11,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 16GB RAM • 1000GB / 1TB SSD • 16 inch • 4GB Radeon Graphics Graphics",
+        "price": 160000
+    },
+    {
+        "id": 12,
+        "name": "HP Elitebook Folio 1040 G3",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 8GB RAM • 256GB SSD • 14 inch • Intel HD 520",
+        "price": 60000
+    },
+    {
+        "id": 13,
+        "name": "Lenovo PM Scheme",
+        "brand": "Lenovo",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 8GB RAM • 256GB SSD • 14 inch • 4GB Intel Iris",
+        "price": 75000
+    },
+    {
+        "id": 14,
+        "name": "HP Notebook 15s",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "AMD RYZEN 7 • 16GB RAM • 256GB SSD • 15.6 inch • AMD Radeon Graphics Graphics",
+        "price": 85000
+    },
+    {
+        "id": 15,
+        "name": "Microsoft Surface",
+        "brand": "Microsoft",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 8GB RAM • 128GB SSD • 13 inch • Intel Graphics",
+        "price": 60000
+    },
+    {
+        "id": 16,
+        "name": "Microsoft Surface",
+        "brand": "Microsoft",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 8GB RAM • 128GB SSD • 13 inch • Intel Graphics",
+        "price": 70000
+    },
+    {
+        "id": 17,
+        "name": "Hp Aero 635 G7",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "AMD Ryzen 5 • 16GB RAM • 256GB SSD • 14 inch • AMD Radeon Graphics",
+        "price": 80000
+    },
+    {
+        "id": 18,
+        "name": "Microsoft Surface",
+        "brand": "Microsoft",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 8GB RAM • 256GB SSD • 13 inch • Intel Graphics",
+        "price": 65000
+    },
+    {
+        "id": 19,
+        "name": "Microsoft Surface",
+        "brand": "Microsoft",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • 13 inch • Intel Graphics",
+        "price": 85000
+    },
+    {
+        "id": 20,
+        "name": "Microsoft Surface Pro 4",
+        "brand": "Microsoft",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 4GB RAM • 128GB SSD • 13 inch • Intel Graphics",
+        "price": 42000
+    },
+    {
+        "id": 21,
+        "name": "Dell Latitude 7420",
+        "brand": "Dell",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 512GB SSD • 14 inch • Intel Graphics",
+        "price": 150000
+    },
+    {
+        "id": 22,
+        "name": "Dell XPS 15 5540 Precision",
+        "brand": "Dell",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 512GB SSD • 15 inch • T1000 Graphics",
+        "price": 165000
+    },
+    {
+        "id": 23,
+        "name": "Dell XPS 15 9550",
+        "brand": "Dell",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • 15 inch • NVIDIA GTX 960",
+        "price": 90000
+    },
+    {
+        "id": 24,
+        "name": "Dell 5550 Precision",
+        "brand": "Dell",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 512GB SSD • 15 inch • 4GB T1000 GPU",
+        "price": 220000
+    },
+    {
+        "id": 25,
+        "name": "Lenovo Thinkpad P53s",
+        "brand": "Lenovo",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 512GB SSD • 15 inch • 2GB NVIDIA <br> CARD",
+        "price": 95000
+    },
+    {
+        "id": 26,
+        "name": "HP Pavilion Gaming Laptop",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 32GB RAM • 512GB SSD • 15 inch • Iris Xe + <br> 4GB RTX 3050",
+        "price": 190000
+    },
+    {
+        "id": 27,
+        "name": "HP ZBOOK 15u G3",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 8GB RAM • 256GB SSD • 15 inch • 2GB NVIDIA <br> CARD",
+        "price": 60000
+    },
+    {
+        "id": 28,
+        "name": "Apple Macbook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • 16 inch • 4GB Graphics Card",
+        "price": 135000
+    },
+    {
+        "id": 29,
+        "name": "Apple MacBook Pro 2018",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 32GB RAM • 1000GB / 1TB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
+        "price": 140000
+    },
+    {
+        "id": 30,
+        "name": "Apple MacBook Air 2020",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 8GB RAM • 512GB SSD • 13.3 inch • Intel UHD Graphics",
+        "price": 120000
+    },
+    {
+        "id": 31,
+        "name": "Apple MacBook Air 2018",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 256GB SSD • 13.3 inch • Intel UHD Graphics",
+        "price": 95000
+    },
+    {
+        "id": 32,
+        "name": "Apple MacBook Pro 2018",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 32GB RAM • 2000GB / 2TB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
+        "price": 150000
+    },
+    {
+        "id": 33,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 32GB RAM • 512GB SSD • 16 inch • 4GB Radeon Graphics Graphics",
+        "price": 160000
+    },
+    {
+        "id": 34,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 1000GB / 1TB SSD • 16 inch • 4GB Radeon Graphics Graphics",
+        "price": 160000
+    },
+    {
+        "id": 35,
+        "name": "Apple MacBook Pro 2018",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 16GB RAM • 1000GB / 1TB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
+        "price": 140000
+    },
+    {
+        "id": 36,
+        "name": "Apple MacBook Pro 2018",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
+        "price": 125000
+    },
+    {
+        "id": 37,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • 16 inch • 4GB Radeon Graphics Graphics",
+        "price": 135000
+    },
+    {
+        "id": 38,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
+        "price": 150000
+    },
+    {
+        "id": 39,
+        "name": "Apple MacBook Pro 2017",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • 15.4 inch • 2GB Radeon Graphics GPU",
+        "price": 85000
+    },
+    {
+        "id": 40,
+        "name": "Apple MacBook Pro 2016",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 256GB SSD • 15.4 inch • 2GB Radeon Graphics Graphics",
+        "price": 80000
+    },
+    {
+        "id": 41,
+        "name": "Apple MacBook Pro 2015",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 256GB SSD • 15.4 inch • Intel Graphics",
+        "price": 60000
+    },
+    {
+        "id": 42,
+        "name": "Hp Elitebook 840 G5",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
+        "price": 65000
+    },
+    {
+        "id": 43,
+        "name": "Hp Elitebook 830 G5",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
+        "price": 70000
+    },
+    {
+        "id": 44,
+        "name": "Hp Elitebook 830 G6",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
+        "price": 70000
+    },
+    {
+        "id": 45,
+        "name": "Hp Elitebook 850 G5",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
+        "price": 80000
+    },
+    {
+        "id": 46,
+        "name": "Hp Elitebook 850 G6",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
+        "price": 80000
+    },
+    {
+        "id": 47,
+        "name": "Hp Elitebook 840 G7",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
+        "price": 90000
+    },
+    {
+        "id": 48,
+        "name": "Apple MacBook Pro 2019",
+        "brand": "Apple",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 512GB SSD • 16 inch • 4GB Radeon Graphics Graphics",
+        "price": 150000
+    },
+    {
+        "id": 49,
+        "name": "Dell XPS 9510",
+        "brand": "Dell",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 1000GB / 1TB SSD • 15.6 inch • 4GB RTX 3050 Ti",
+        "price": 285000
+    },
+    {
+        "id": 50,
+        "name": "Lenovo X13",
+        "brand": "Lenovo",
+        "image": "./useful_links/temp.png",
+        "specs": "AMD Ryzen 5 • 32GB RAM • 512GB SSD • ~14 inch • AMD Graphics",
+        "price": 75000
+    },
+    {
+        "id": 51,
+        "name": "Lenovo X1 Carbon",
+        "brand": "Lenovo",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 8GB RAM • 256GB SSD • ~14 inch • Intel Graphics",
+        "price": 60000
+    },
+    {
+        "id": 52,
+        "name": "Hp Probook 450 G6",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 256GB SSD • ~15.4 inch • Intel Graphics",
+        "price": 65000
+    },
+    {
+        "id": 53,
+        "name": "Hp Elitebook 640 G10",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 512GB SSD • ~14 inch • Intel Graphics",
+        "price": 155000
+    },
+    {
+        "id": 54,
+        "name": "Dell Precision 5540",
+        "brand": "Dell",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 32GB RAM • 512GB SSD • ~15.4 inch • Intel Graphics",
+        "price": 165000
+    },
+    {
+        "id": 55,
+        "name": "Hp Zbook 14 Fire Fly 🔥",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 16GB RAM • 256GB SSD • ~14.5 inch • Intel Graphics GPU",
+        "price": 95000
+    },
+    {
+        "id": 56,
+        "name": "Hp Vostro 5391",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 8GB RAM • 512GB SSD • ~13.3 inch • 2GB Graphics Card",
+        "price": 100000
+    },
+    {
+        "id": 57,
+        "name": "Lenovo Thinkpad T480",
+        "brand": "Lenovo",
+        "image": "./useful_links/temp.png",
+        "specs": "i5 • 8GB RAM • 256GB SSD • ~14 inch • Intel UHD Graphics",
+        "price": 60000
+    },
+    {
+        "id": 58,
+        "name": "Hp Elitebook 840 G7",
+        "brand": "HP",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 16GB RAM • 512GB SSD • ~14 inch • Intel UHD Graphics",
+        "price": 100000
+    },
+    {
+        "id": 59,
+        "name": "Dell XPS 13 9360 Kaby Lake",
+        "brand": "Dell",
+        "image": "./useful_links/temp.png",
+        "specs": "i7 • 8GB RAM • 512GB SSD • ~14 inch • Intel UHD Graphics",
+        "price": 80000
+    }
+]
