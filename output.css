@@ -213,8 +213,47 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
+  .left-1 {
+    left: calc(var(--spacing) * 1);
+  }
   .left-1\/2 {
     left: calc(1/2 * 100%);
+  }
+  .left-2 {
+    left: calc(var(--spacing) * 2);
+  }
+  .left-2\/5 {
+    left: calc(2/5 * 100%);
+  }
+  .left-3 {
+    left: calc(var(--spacing) * 3);
+  }
+  .left-3\/5 {
+    left: calc(3/5 * 100%);
+  }
+  .left-3\/6 {
+    left: calc(3/6 * 100%);
+  }
+  .left-7\/12 {
+    left: calc(7/12 * 100%);
+  }
+  .left-20 {
+    left: calc(var(--spacing) * 20);
+  }
+  .left-80 {
+    left: calc(var(--spacing) * 80);
+  }
+  .left-120 {
+    left: calc(var(--spacing) * 120);
+  }
+  .left-150 {
+    left: calc(var(--spacing) * 150);
+  }
+  .left-170 {
+    left: calc(var(--spacing) * 170);
+  }
+  .left-180 {
+    left: calc(var(--spacing) * 180);
   }
   .z-40 {
     z-index: 40;
@@ -282,6 +321,9 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .size-8 {
     width: calc(var(--spacing) * 8);
     height: calc(var(--spacing) * 8);
@@ -316,6 +358,9 @@
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
   .w-5\/6 {
     width: calc(5/6 * 100%);
   }
@@ -334,8 +379,39 @@
   .max-w-fit {
     max-width: fit-content;
   }
-  .-translate-x-1\/2 {
-    --tw-translate-x: calc(calc(1/2 * 100%) * -1);
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .-translate-x-2 {
+    --tw-translate-x: calc(var(--spacing) * -2);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-x-2\/4 {
+    --tw-translate-x: calc(calc(2/4 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-x-2\/5 {
+    --tw-translate-x: calc(calc(2/5 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-x-2\/6 {
+    --tw-translate-x: calc(calc(2/6 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-x-3 {
+    --tw-translate-x: calc(var(--spacing) * -3);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-x-3\/6 {
+    --tw-translate-x: calc(calc(3/6 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-x-7 {
+    --tw-translate-x: calc(var(--spacing) * -7);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-x-7\/12 {
+    --tw-translate-x: calc(calc(7/12 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-x-full {
@@ -357,6 +433,9 @@
   }
   .cursor-not-allowed {
     cursor: not-allowed;
+  }
+  .resize {
+    resize: both;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -506,6 +585,9 @@
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
+  }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
   }
@@ -598,6 +680,10 @@
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .outline-1 {
     outline-style: var(--tw-outline-style);
@@ -803,35 +889,42 @@
     }
   }
 }
-.custom-height {
+.carousel-wrapper {
+  width: 100vw;
   position: relative;
-  width: 100%;
-  height: 7.5rem;
   overflow: hidden;
 }
-@media (min-width: 480px) {
-  .custom-height {
-    height: 12rem;
+.carousel-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.carousel-wrapper {
+  height: 75vh;
+}
+@media (width >= 340px) and (width < 540px) {
+  .carousel-wrapper {
+    height: 80vh;
   }
 }
-@media (min-width: 640px) {
-  .custom-height {
-    height: 15rem;
+@media (width >= 540px) and (width < 768px) {
+  .carousel-wrapper {
+    height: 85vh;
   }
 }
-@media (min-width: 768px) {
-  .custom-height {
-    height: 20rem;
+@media (width >= 768px) and (width < 1024px) {
+  .carousel-wrapper {
+    height: 90vh;
   }
 }
-@media (min-width: 1024px) {
-  .custom-height {
-    height: 25rem;
+@media (width >= 1024px) and (width < 1280px) {
+  .carousel-wrapper {
+    height: 95vh;
   }
 }
-@media (min-width: 1280px) {
-  .custom-height {
-    height: 29rem;
+@media (width >= 1280px) {
+  .carousel-wrapper {
+    height: 100vh;
   }
 }
 @property --tw-translate-x {

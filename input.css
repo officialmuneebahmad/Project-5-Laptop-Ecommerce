@@ -1,43 +1,47 @@
 @import "tailwindcss";
 
-.custom-height {
-  position: relative;
-  width: 100%;
-  height: 7.5rem; /* default: smallest screen */
-  overflow: hidden;
-  /* background-color: blue; */
-}
-
-@media (min-width: 480px) {
-  .custom-height {
-    height: 12rem;
-    /* background-color: black; */
+.carousel-wrapper {
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
   }
-}
 
-@media (min-width: 640px) {
-  .custom-height {
-    height: 15rem;
-    /* background-color: orange; */
+  .carousel-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures full visibility */
   }
-}
 
-@media (min-width: 768px) {
-  .custom-height {
-    height: 20rem;
-    /* background-color: red; */
+  .carousel-wrapper {
+    height: 75vh; /* Base height */
   }
-}
 
-@media (min-width: 1024px) {
-  .custom-height {
-    height: 25rem;
-    /* background-color: yellow; */
+  @media (width >= 340px) and (width < 540px) {
+    .carousel-wrapper {
+      height: 80vh;
+    }
   }
-}
 
-@media (min-width: 1280px) {
-  .custom-height {
-    height: 29rem;
+  @media (width >= 540px) and (width < 768px) {
+    .carousel-wrapper {
+      height: 85vh;
+    }
   }
-}
+
+  @media (width >= 768px) and (width < 1024px) {
+    .carousel-wrapper {
+      height: 90vh;
+    }
+  }
+
+  @media (width >= 1024px) and (width < 1280px) {
+    .carousel-wrapper {
+      height: 95vh;
+    }
+  }
+
+  @media (width >= 1280px) {
+    .carousel-wrapper {
+      height: 100vh;
+    }
+  }
