@@ -47,9 +47,9 @@ function renderProducts(products) {
       <h3 class="text-lg font-medium mt-2">${product.name}</h3>
       <p class="text-sm text-gray-600">${product.specs}</p>
       <p class="text-blue-600 font-semibold mt-1">PKR ${product.price.toLocaleString()}</p>
-      <div class="mt-3 flex justify-between">
-        <button onclick="viewProduct(${product.id})" class="bg-gray-200 text-sm px-4 py-2 rounded-xl hover:bg-gray-300">View Details</button>
-        <button class="bg-blue-600 text-white font-semibold px-4 py-2 rounded-xl hover:bg-blue-700">Call / Whatsapp</button>
+      <div class="mt-3 flex flex-col-reverse gap-4 justify-between">
+        <button onclick="viewProduct(${product.id})" class="bg-gray-200 text-sm px-4 py-2 rounded-lg hover:bg-gray-300">View Details</button>
+        <button class="bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-700">Call / Whatsapp</button>
       </div>
     `;
     productGrid.appendChild(card);

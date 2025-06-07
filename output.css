@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-blue-200: oklch(88.2% 0.059 254.128);
     --color-blue-300: oklch(80.9% 0.105 251.813);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
@@ -363,6 +364,9 @@
   .flex-col {
     flex-direction: column;
   }
+  .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
   .flex-row {
     flex-direction: row;
   }
@@ -438,9 +442,6 @@
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
-  }
-  .border-blue-600 {
-    border-color: var(--color-blue-600);
   }
   .border-gray-400 {
     border-color: var(--color-gray-400);
@@ -672,6 +673,13 @@
       }
     }
   }
+  .hover\:bg-blue-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-200);
+      }
+    }
+  }
   .hover\:bg-blue-600 {
     &:hover {
       @media (hover: hover) {
@@ -729,11 +737,6 @@
       place-items: center;
     }
   }
-  .max-sm\:gap-4 {
-    @media (width < 40rem) {
-      gap: calc(var(--spacing) * 4);
-    }
-  }
   .max-sm\:gap-8 {
     @media (width < 40rem) {
       gap: calc(var(--spacing) * 8);
@@ -749,14 +752,39 @@
       padding-block: calc(var(--spacing) * 1);
     }
   }
+  .sm\:w-full {
+    @media (width >= 40rem) {
+      width: 100%;
+    }
+  }
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+  .sm\:flex-col {
+    @media (width >= 40rem) {
+      flex-direction: column;
+    }
+  }
+  .sm\:flex-col-reverse {
+    @media (width >= 40rem) {
+      flex-direction: column-reverse;
+    }
+  }
+  .sm\:gap-8 {
+    @media (width >= 40rem) {
+      gap: calc(var(--spacing) * 8);
+    }
+  }
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:flex-row {
+    @media (width >= 48rem) {
+      flex-direction: row;
     }
   }
   .lg\:relative {
@@ -827,17 +855,18 @@ body {
 }
 @media (width >= 340px) and (width < 540px) {
   .carousel-wrapper {
-    height: 70vh;
+    height: 40vh;
   }
 }
 @media (width >= 540px) and (width < 768px) {
   .carousel-wrapper {
-    height: 85vh;
+    height: 55vh;
+    width: 100%;
   }
 }
 @media (width >= 768px) and (width < 1024px) {
   .carousel-wrapper {
-    height: 90vh;
+    height: 70vh;
   }
 }
 @media (width >= 1024px) and (width < 1280px) {
