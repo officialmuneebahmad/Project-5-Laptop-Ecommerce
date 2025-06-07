@@ -410,6 +410,9 @@
   .gap-y-8 {
     row-gap: calc(var(--spacing) * 8);
   }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   .rounded {
     border-radius: 0.25rem;
   }
@@ -634,6 +637,10 @@
     --tw-duration: 700ms;
     transition-duration: 700ms;
   }
+  .select-none {
+    -webkit-user-select: none;
+    user-select: none;
+  }
   .group-hover\:bg-gray-300 {
     &:is(:where(.group):hover *) {
       @media (hover: hover) {
@@ -820,7 +827,7 @@ body {
 }
 @media (width >= 340px) and (width < 540px) {
   .carousel-wrapper {
-    height: 50vh;
+    height: 70vh;
   }
 }
 @media (width >= 540px) and (width < 768px) {

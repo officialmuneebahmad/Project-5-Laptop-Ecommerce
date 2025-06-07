@@ -98,16 +98,38 @@
   x-data="{
     activeSlide: 0,
     slides: ['./useful_links/Banner 1.png', './useful_links/Banner 2.png', './useful_links/Banner 3.png'],
+    startX: 0,
+    endX: 0,
     init() {
       setInterval(() => {
         this.activeSlide = (this.activeSlide + 1) % this.slides.length;
       }, 4000);
+    },
+    onStart(e) {
+      this.startX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+    },
+    onMove(e) {
+      this.endX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+    },
+    onEnd() {
+      if (this.startX - this.endX > 50) {
+        this.activeSlide = (this.activeSlide + 1) % this.slides.length; // Swipe left
+      } else if (this.endX - this.startX > 50) {
+        this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length; // Swipe right
+      }
     }
   }" 
-  x-init="init()" 
-  class="carousel-wrapper"
+  x-init="init()"
+  @pointerdown="onStart($event)" 
+  @pointermove="onMove($event)" 
+  @pointerup="onEnd()"
+  @touchstart="onStart($event)"
+  @touchmove="onMove($event)"
+  @touchend="onEnd()"
+  class="relative carousel-wrapper overflow-hidden select-none"
   aria-label="Promotional Banners Carousel" role="region"
 >
+
 
   <!-- Slides -->
   <template x-for="(slide, index) in slides" :key="index">
@@ -122,7 +144,7 @@
   </template>
 
   <!-- Arrows -->
-  <div class="absolute inset-0 flex justify-between items-center px-4">
+  <!-- <div class="absolute inset-0 flex justify-between items-center px-4">
     <button 
       @click="activeSlide = activeSlide === 0 ? slides.length - 1 : activeSlide - 1" 
       class="bg-black bg-opacity-40 text-white p-2 rounded-full"
@@ -133,7 +155,7 @@
       class="bg-black bg-opacity-40 text-white p-2 rounded-full"
       aria-label="Next slide"
     >→</button>
-  </div>
+  </div> -->
 
   <!-- Dot Indicators -->
   <div class="absolute bottom-2 left-7/12 transform -translate-x-2/4 flex space-x-2 bg-white/50 px-4 py-1 rounded-full shadow" style="backdrop-filter: blur(4px);">
