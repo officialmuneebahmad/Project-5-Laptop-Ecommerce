@@ -43,7 +43,7 @@ function renderProducts(products) {
     const card = document.createElement('div');
     card.className = 'bg-white rounded-xl shadow hover:shadow-xl p-4';
     card.innerHTML = `
-      <img src="${product.image}" alt="${product.name}" class="rounded-md w-full h-48 object-cover hover:transform hover:brightness-75 transition-transform duration-300 hover:scale-110" />
+      <img src="${product.image}" alt="${product.name}" class="rounded-md w-full h-48 object-cover hover:transform hover:brightness-75 transition-transform duration-300 hover:scale-105" />
       <h3 class="text-lg font-medium mt-2">${product.name}</h3>
       <p class="text-sm text-gray-600">${product.specs}</p>
       <p class="text-blue-600 font-semibold mt-1">PKR ${product.price.toLocaleString()}</p>

@@ -1,9 +1,16 @@
 @import "tailwindcss";
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 .carousel-wrapper {
     width: 100vw;
     position: relative;
     overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .carousel-wrapper img {
@@ -13,12 +20,12 @@
   }
 
   .carousel-wrapper {
-    height: 75vh; /* Base height */
+    height: 100vh; /* Base height */
   }
 
   @media (width >= 340px) and (width < 540px) {
     .carousel-wrapper {
-      height: 80vh;
+      height: 50vh;
     }
   }
 
