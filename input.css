@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+.custom-height {
+  position: relative;
+  width: 100%;
+  height: 7.5rem; /* default: smallest screen */
+  overflow: hidden;
+  /* background-color: blue; */
+}
+
+@media (min-width: 480px) {
+  .custom-height {
+    height: 12rem;
+    /* background-color: black; */
+  }
+}
+
+@media (min-width: 640px) {
+  .custom-height {
+    height: 15rem;
+    /* background-color: orange; */
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-height {
+    height: 20rem;
+    /* background-color: red; */
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-height {
+    height: 25rem;
+    /* background-color: yellow; */
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-height {
+    height: 29rem;
+  }
+}

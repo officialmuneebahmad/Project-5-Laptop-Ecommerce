@@ -73,19 +73,19 @@ function renderPagination(totalItems) {
   
   paginationContainer.innerHTML = `
     <button onclick="changePage(-1)" ${currentPage === 1 ? 'disabled' : ''} 
-      class="px-4 py-2 rounded ${currentPage === 1 ? 'bg-gray-200 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}">
+      class="max-sm:px-2 max-sm:py-1 px-4 py-2 rounded ${currentPage === 1 ? 'bg-gray-200 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}">
       Previous
     </button>
     
     ${Array.from({length: totalPages}, (_, i) => i + 1).map(page => `
       <button onclick="goToPage(${page})" 
-        class="px-4 py-2 rounded ${currentPage === page ? 'bg-blue-600 text-white' : 'bg-gray-200 hover:bg-gray-300'}">
+        class="max-sm:px-2 max-sm:py-1 px-4 py-2 rounded ${currentPage === page ? 'bg-blue-600 text-white' : 'bg-gray-200 hover:bg-gray-300'}">
         ${page}
       </button>
     `).join('')}
     
     <button onclick="changePage(1)" ${currentPage === totalPages ? 'disabled' : ''} 
-      class="px-4 py-2 rounded ${currentPage === totalPages ? 'bg-gray-200 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}">
+      class="max-sm:px-2 max-sm:py-1 px-4 py-2 rounded ${currentPage === totalPages ? 'bg-gray-200 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}">
       Next
     </button>
   `;
