@@ -37,10 +37,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
-<body class="bg-[#f6f6f6] text-gray-800">
+<body class="h-lvh w-auto bg-[#f6f6f6] text-gray-800">
 
   <!-- Navbar -->
-  <nav class=" bg-white shadow px-4 py-4 flex justify-evenly items-center max-sm:flex-col max-sm:gap-8 sm:flex-col sm:gap-8 md:flex-row" role="navigation" aria-label="Main navigation">
+  <nav class=" w-full bg-white shadow px-4 py-4 flex justify-evenly items-center max-sm:flex-col max-sm:gap-8 sm:flex-col sm:gap-8 md:flex-row" role="navigation" aria-label="Main navigation">
     <h1 class=" text-xl font-bold text-blue-600">
         <img src="./useful_links/logo.png" alt="logo" class="size-24">
     </h1>
@@ -93,43 +93,69 @@
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40 lg:hidden"></div>
   </div>
 
-<!-- Carousel -->
-<div 
+<!-- Carousels -->
+<div
   x-data="{
     activeSlide: 0,
-    slides: ['./useful_links/Banner 1.png', './useful_links/Banner 2.png', './useful_links/Banner 3.png'],
+    slides: ['./useful_links/Banner 1.png', './useful_links/Banner 2.png', './useful_links/Banner 3.png', './useful_links/Banner 4.png'],
     startX: 0,
     endX: 0,
-    init() {
-      setInterval(() => {
-        this.activeSlide = (this.activeSlide + 1) % this.slides.length;
+    interval: null,
+    startAuto() {
+      this.interval = setInterval(() => {
+        this.next();
       }, 4000);
     },
+    stopAuto() {
+      clearInterval(this.interval);
+    },
+    next() {
+      this.activeSlide = (this.activeSlide + 1) % this.slides.length;
+    },
+    prev() {
+      this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length;
+    },
     onStart(e) {
+      this.stopAuto();
       this.startX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
     },
     onMove(e) {
       this.endX = e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
     },
     onEnd() {
-      if (this.startX - this.endX > 50) {
-        this.activeSlide = (this.activeSlide + 1) % this.slides.length; // Swipe left
-      } else if (this.endX - this.startX > 50) {
-        this.activeSlide = (this.activeSlide - 1 + this.slides.length) % this.slides.length; // Swipe right
-      }
+      if (this.startX - this.endX > 50) this.next();
+      else if (this.endX - this.startX > 50) this.prev();
+      this.startAuto();
     }
-  }" 
-  x-init="init()"
-  @pointerdown="onStart($event)" 
-  @pointermove="onMove($event)" 
-  @pointerup="onEnd()"
+  }"
+  x-init="startAuto()"
   @touchstart="onStart($event)"
   @touchmove="onMove($event)"
   @touchend="onEnd()"
-  class="relative carousel-wrapper overflow-hidden select-none"
-  aria-label="Promotional Banners Carousel" role="region"
+  @pointerdown="onStart($event)"
+  @pointermove="onMove($event)"
+  @pointerup="onEnd()"
+  class="relative w-full carousel-wrapper overflow-hidden"
+  role="region"
+  aria-label="Laptop Promotional Banners"
 >
 
+  <!-- Slides wrapper -->
+  <div
+    class="flex transition-transform duration-700"
+    :style="`transform: translateX(-${activeSlide * 100}%); width: ${slides.length * 100}%`"
+  >
+    <template x-for="(slide, index) in slides" :key="index">
+    <div 
+      x-show="activeSlide === index" 
+      class="absolute inset-0 transition-opacity duration-700"
+      x-transition:enter="opacity-0"
+      x-transition:enter-end="opacity-100"
+    >
+      <img :src="slide" alt="Banner">
+    </div>
+    </template>
+  </div>
 
   <!-- Slides -->
   <template x-for="(slide, index) in slides" :key="index">
@@ -143,10 +169,14 @@
     </div>
   </template>
 
-  <!-- Dot Indicators -->
-  <div class="absolute bottom-2 left-7/12 transform -translate-x-2/4 flex space-x-2 bg-white/50 px-4 py-1 rounded-full shadow" style="backdrop-filter: blur(4px);">
+  <!-- Navigation -->
+  <button @click="prev" class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/40 text-white p-2 rounded-full" aria-label="Previous Slide">‹</button>
+  <button @click="next" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/40 text-white p-2 rounded-full" aria-label="Next Slide">›</button>
+
+  <!-- Dots -->
+  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 bg-white/50 px-4 py-1 rounded-full shadow">
     <template x-for="(slide, index) in slides" :key="index">
-      <button 
+      <button
         @click="activeSlide = index"
         :class="activeSlide === index ? 'bg-blue-600 scale-110' : 'bg-gray-400'"
         class="w-3 h-3 rounded-full transition-all duration-300"
@@ -155,6 +185,7 @@
     </template>
   </div>
 </div>
+
 
 
 
