@@ -40,46 +40,46 @@
 <body class="bg-[#f6f6f6] text-gray-800">
 
   <!-- Navbar -->
-  <nav class=" bg-white shadow px-6 py-4 flex justify-evenly items-center max-sm:flex-col max-sm:gap-8 sm:flex-col sm:gap-8 md:flex-row" role="navigation" aria-label="Main navigation">
+  <nav class=" bg-white shadow px-4 py-4 flex justify-evenly items-center max-sm:flex-col max-sm:gap-8 sm:flex-col sm:gap-8 md:flex-row" role="navigation" aria-label="Main navigation">
     <h1 class=" text-xl font-bold text-blue-600">
         <img src="./useful_links/logo.png" alt="logo" class="size-24">
     </h1>
+    
     <div class="w-5/6 max-sm:place-items-center flex justify-between items-center sm:flex-col-reverse sm:gap-8 max-sm:flex-col-reverse max-sm:gap-8 md:flex-row">
+    
     <div class="w-full space-x-4 max-sm:w-full sm:w-full"> 
-      <input id="search" type="text" placeholder="Search laptops instantly..." class="w-full px-6 py-3 border-gray-400 border-2 outline-1 rounded-lg" aria-label="Search laptops" />
+      <input id="search" type="text" placeholder="Search instantly..." class="w-full px-4 py-2 border-gray-400 outline-2 hover:outline-blue-500 focus:outline-blue-500 rounded-full" aria-label="Search laptops" />
     </div>
 
-   <div class="w-full flex flex-row justify-center items-center gap-4">
-    <i class="fa-brands fa-whatsapp fa-2xl"></i>
-    <div class="flex flex-col">
-    <h5 class="font-extrabold">Call / Whatsapp</h5>
-    <p>
-        <a class="hover:bg-gray-300  py-0.5 px-1 rounded-full" href="tel:03035044384" title="Call Now" aria-label="Call Laptop Mart on 0303 5044384">0303 5044384</a>
-    </p>
+    <!-- Combining Both Elements -->
+    <div class="w-full flex flex-row max-sm:flex-col sm:flex-col-reverse sm:items-center max-sm:items-center md:flex-row md:items-center gap-6 items-start justify-center">
+
+  <!-- Phone Number -->
+  <div class="flex w-full md:w-1/2 items-center gap-4 px-4 sm:justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 shrink-0" viewBox="0 -960 960 960" fill="#1447e6">
+      <path d="M496-489v-321q0-12.75 8.63-21.38Q513.25-840 526-840h284q12.75 0 21.38 8.62Q840-822.75 840-810v192q0 12.75-8.62 21.37Q822.75-588 810-588H600l-104 99Zm60-159h224v-132H556v132Zm0 0v-132 132Zm239 528q-116 0-236.5-56T335-335Q232-438 176-558.5T120-795q0-19.29 12.86-32.14Q145.71-840 165-840h140q14 0 24 10t14 25l26.93 125.64Q372-665 369.5-653.5t-10.73 19.73L259-533q26 44 55 82t64 72q37 38 78 69.5t86 55.5l95-98q10-11 23.15-15 13.15-4 25.85-2l119 26q15 4 25 16.04 10 12.05 10 26.96v135q0 19.29-12.86 32.14Q814.29-120 795-120ZM229-588l81-82-23-110H180q2 42 13.5 88.5T229-588Zm369 363q41 19 89 31t93 14v-107l-103-21-79 83Z"/>
+    </svg>
+    <div class="flex flex-col text-sm sm:text-base">
+      <h5 class="font-bold">Call / Whatsapp</h5>
+      <a class="hover:text-blue-600 underline underline-offset-4" href="tel:03035044384" title="Call Now">0303 5044384</a>
     </div>
+  </div>
+
+  <!-- Location -->
+  <div class="flex w-full md:w-1/2 items-center gap-4 px-4 sm:justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 shrink-0" viewBox="0 -960 960 960" fill="#ff0000">
+      <path d="M480.09-490q28.91 0 49.41-20.59 20.5-20.59 20.5-49.5t-20.59-49.41q-20.59-20.5-49.5-20.5t-49.41 20.59q-20.5 20.59-20.5 49.5t20.59 49.41q20.59 20.5 49.5 20.5ZM480-159q133-121 196.5-219.5T740-552q0-117.79-75.29-192.9Q589.42-820 480-820t-184.71 75.1Q220-669.79 220-552q0 75 65 173.5T480-159Zm0 79Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/>
+    </svg>
+    <div class="flex flex-col text-sm sm:text-base">
+      <h5 class="font-bold">Location</h5>
+      <a href="https://maps.app.goo.gl/bTG6oQ4MrnExzPHS9" target="_blank" class="hover:text-blue-600 underline underline-offset-4">
+        Shop #1, Indus Tower, Ghanta Ghar, Multan
+      </a>
     </div>
+  </div>
 
-    <div class="flex flex-row justify-center items-center gap-4">
+</div>
 
-    <!-- FAQs -->
-    <a href="https://maps.app.goo.gl/AaSGPCT5AGyFjxtJ9" class="max-w-fit group hover:cursor-pointer flex flex-col place-items-center" title="Any Questions?" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg"  class="group-hover:bg-gray-300 p-1 rounded-full" height="40px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="M482-244.67q17.67 0 29.83-12.16Q524-269 524-286.67q0-17.66-12.17-29.83-12.16-12.17-29.83-12.17-17.67 0-29.83 12.17Q440-304.33 440-286.67q0 17.67 12.17 29.84 12.16 12.16 29.83 12.16Zm-35.33-148.66h64q0-28.34 6.83-49 6.83-20.67 41.17-50.34 29.33-26 43-50.5 13.66-24.5 13.66-55.5 0-54-36.66-85.33-36.67-31.33-93.34-31.33-51.66 0-88.5 26.33Q360-662.67 344-620l57.33 22q9-24.67 29.5-42t52.5-17.33q33.34 0 52.67 18.16 19.33 18.17 19.33 44.5 0 21.34-12.66 40.17-12.67 18.83-35.34 37.83-34.66 30.34-47.66 54-13 23.67-13 69.34ZM480-80q-82.33 0-155.33-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.67T80-480q0-83 31.5-156t85.83-127q54.34-54 127.34-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82.33-31.5 155.33-31.5 73-85.5 127.34Q709-143 636-111.5T480-80Zm0-66.67q139.33 0 236.33-97.33t97-236q0-139.33-97-236.33t-236.33-97q-138.67 0-236 97-97.33 97-97.33 236.33 0 138.67 97.33 236 97.33 97.33 236 97.33ZM480-480Z"/></svg>
-        <h1 class="group-hover:bg-gray-300  py-1 px-2 rounded-full font-extrabold">FAQs</h1>
-    </a>
-
-    <!-- Mode Toggle -->
-    <button id="darkToggle" class="max-w-fit group hover:cursor-pointer flex flex-col place-items-center" aria-label="Toggle dark mode" title="Dark Mode">
-        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:bg-gray-300 py-1 px-2 rounded-full" height="40px" viewBox="0 -960 960 960" width="48px" fill="#1f1f1f"><path d="M484-80q-84 0-157.5-32t-128-86.5Q144-253 112-326.5T80-484q0-146 93-257.5T410-880q-18 98 11 192.63 29 94.64 100 165.74 71 71.1 165.5 100.14Q781-392.45 880-410.47q-26 144.2-138 237.34Q630-80 484-80Zm0-60q100 0 182-57t132-145q-90-8-173-41.5T478.5-480Q415-543 382-625.5T341-797q-88 48-144.5 130.5T140-484q0 143.33 100.33 243.67Q340.67-140 484-140Zm-6-340Z"/></svg>
-        <h1 class="group-hover:bg-gray-300  py-1.5 px-3 rounded-full font-extrabold">Night</h1>
-    </button>
-
-    <!-- Location -->
-    <a href="https://maps.app.goo.gl/AaSGPCT5AGyFjxtJ9" class="max-w-fit group hover:cursor-pointer flex flex-col place-items-center" title="Find Us" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:bg-gray-300 py-1 px-2 rounded-full" height="40px" viewBox="0 -960 960 960" width="48px" fill="#1f1f1f"><path d="M480.09-490q28.91 0 49.41-20.59 20.5-20.59 20.5-49.5t-20.59-49.41q-20.59-20.5-49.5-20.5t-49.41 20.59q-20.5 20.59-20.5 49.5t20.59 49.41q20.59 20.5 49.5 20.5ZM480-159q133-121 196.5-219.5T740-552q0-117.79-75.29-192.9Q589.42-820 480-820t-184.71 75.1Q220-669.79 220-552q0 75 65 173.5T480-159Zm0 79Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
-        <h1 class="group-hover:bg-gray-300  py-1 px-2 rounded-full font-extrabold">Location</h1>
-    </a>
-
-    </div>
 
    </div>
   </nav>
@@ -88,7 +88,7 @@
 
   <!-- Filter Toggle Button (mobile only) -->
   <div class="lg:hidden p-4 bg-white shadow flex justify-between items-center">
-    <h2 class="text-xl font-bold">Find Your Best Laptop</h2>
+    <h2 class="text-xl font-bold">Apply Filter</h2>
     <button id="filterToggleBtn" class="text-blue-600 font-bold px-4 py-2 hover:bg-blue-200 rounded-lg">Filters</button>
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40 lg:hidden"></div>
   </div>
@@ -178,6 +178,28 @@
         <input type="range" id="priceRange" min="100000" max="300000" value="300000" step="10000" class="w-full" />
         <div class="text-sm text-gray-600 mt-1">Up to: PKR <span id="priceValue">300000</span></div>
       </div>
+
+      <div class="w-full flex flex-col justify-center items-start gap-4 my-4">
+
+    <!-- FAQs -->
+    <a href="https://maps.app.goo.gl/AaSGPCT5AGyFjxtJ9" class="w-full group hover:cursor-pointer flex flex-row" title="Any Questions?" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg"  class="group-hover:bg-blue-200 p-1 rounded-full" height="32px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="M482-244.67q17.67 0 29.83-12.16Q524-269 524-286.67q0-17.66-12.17-29.83-12.16-12.17-29.83-12.17-17.67 0-29.83 12.17Q440-304.33 440-286.67q0 17.67 12.17 29.84 12.16 12.16 29.83 12.16Zm-35.33-148.66h64q0-28.34 6.83-49 6.83-20.67 41.17-50.34 29.33-26 43-50.5 13.66-24.5 13.66-55.5 0-54-36.66-85.33-36.67-31.33-93.34-31.33-51.66 0-88.5 26.33Q360-662.67 344-620l57.33 22q9-24.67 29.5-42t52.5-17.33q33.34 0 52.67 18.16 19.33 18.17 19.33 44.5 0 21.34-12.66 40.17-12.67 18.83-35.34 37.83-34.66 30.34-47.66 54-13 23.67-13 69.34ZM480-80q-82.33 0-155.33-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.67T80-480q0-83 31.5-156t85.83-127q54.34-54 127.34-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82.33-31.5 155.33-31.5 73-85.5 127.34Q709-143 636-111.5T480-80Zm0-66.67q139.33 0 236.33-97.33t97-236q0-139.33-97-236.33t-236.33-97q-138.67 0-236 97-97.33 97-97.33 236.33 0 138.67 97.33 236 97.33 97.33 236 97.33ZM480-480Z"/></svg>
+        <h1 class="group-hover:bg-blue-200 w-full py-1 px-2 rounded-full font-extrabold">FAQs</h1>
+    </a>
+
+    <!-- Mode Toggle -->
+    <button id="darkToggle" class="w-full group hover:cursor-pointer flex flex-row" aria-label="Toggle dark mode" title="Dark Mode">
+        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:bg-blue-200 p-1 rounded-full" height="32px" viewBox="0 -960 960 960" width="32px" fill="#1f1f1f"><path d="M484-80q-84 0-157.5-32t-128-86.5Q144-253 112-326.5T80-484q0-146 93-257.5T410-880q-18 98 11 192.63 29 94.64 100 165.74 71 71.1 165.5 100.14Q781-392.45 880-410.47q-26 144.2-138 237.34Q630-80 484-80Zm0-60q100 0 182-57t132-145q-90-8-173-41.5T478.5-480Q415-543 382-625.5T341-797q-88 48-144.5 130.5T140-484q0 143.33 100.33 243.67Q340.67-140 484-140Zm-6-340Z"/></svg>
+        <h1 class="group-hover:bg-blue-200 w-full py-1.5 px-3 rounded-full font-extrabold text-start">Night</h1>
+    </button>
+
+    <!-- Location -->
+    <a href="https://maps.app.goo.gl/AaSGPCT5AGyFjxtJ9" class="w-full group hover:cursor-pointer flex flex-row" title="Find Us" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:bg-blue-200 p-1 rounded-full" height="32px" viewBox="0 -960 960 960" width="32px" fill="#1f1f1f"><path d="M480.09-490q28.91 0 49.41-20.59 20.5-20.59 20.5-49.5t-20.59-49.41q-20.59-20.5-49.5-20.5t-49.41 20.59q-20.5 20.59-20.5 49.5t20.59 49.41q20.59 20.5 49.5 20.5ZM480-159q133-121 196.5-219.5T740-552q0-117.79-75.29-192.9Q589.42-820 480-820t-184.71 75.1Q220-669.79 220-552q0 75 65 173.5T480-159Zm0 79Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+        <h1 class="group-hover:bg-blue-200 w-full py-1 px-2 rounded-full font-extrabold">Location</h1>
+    </a>
+
+    </div>
     </aside>
 
     <!-- Product Grid -->

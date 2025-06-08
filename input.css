@@ -30,6 +30,7 @@ body {
     .carousel-wrapper {
       height: 40vh;
     }
+
   }
 
   @media (width >= 540px) and (width < 768px) {
