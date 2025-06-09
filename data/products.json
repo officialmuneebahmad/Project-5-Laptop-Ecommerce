@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Apple MacBook Pro 2017",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFT8ABV.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics GPU",
         "price": 95000
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Apple MacBook Pro 2018",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFuGk4j.png",
         "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
         "price": 130000
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFuGk4j.png",
         "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
         "price": 140000
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFREMX9.png",
         "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
         "price": 145000
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFRhAsS.png",
         "specs": "i9 • 16GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics",
         "price": 170000
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF5HfNn.webp",
         "specs": "i7 • 32GB RAM • 1TB SSD • 15.4 inch • 4GB Radeon Graphics",
         "price": 149000
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF5dhMJ.webp",
         "specs": "i7 • 16GB RAM • 256GB SSD • 15.4 inch • 4GB Radeon Graphics",
         "price": 130000
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "name": "Apple MacBook Pro 2017",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF5BIls.png",
         "specs": "i5 • 8GB RAM • 256GB SSD • 13 inch • 4GB Radeon Graphics",
         "price": 85000
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "name": "Apple MacBook Pro 2016",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF5odle.png",
         "specs": "i5 • 16GB RAM • 256GB SSD • 13 inch • 4GB Radeon Graphics",
         "price": 80000
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "name": "Apple MacBook Pro 2017",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF5odle.png",
         "specs": "i5 • 16GB RAM • 512GB SSD • 13 inch • 4GB Radeon Graphics Graphics",
         "price": 90000
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF5Rav1.png",
         "specs": "i9 • 16GB RAM • 1000GB / 1TB SSD • 16 inch • 4GB Radeon Graphics Graphics",
         "price": 160000
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "name": "HP Elitebook Folio 1040 G3",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF58qp1.png",
         "specs": "i7 • 8GB RAM • 256GB SSD • 14 inch • Intel HD 520",
         "price": 60000
     },
