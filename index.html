@@ -40,7 +40,7 @@
 <body class="h-lvh w-auto bg-[#f6f6f6] text-gray-800">
 
   <!-- Navbar -->
-  <nav class=" w-full bg-white shadow px-4 py-4 flex justify-evenly items-center max-sm:flex-col max-sm:gap-8 sm:flex-col sm:gap-8 md:flex-row" role="navigation" aria-label="Main navigation">
+  <nav class=" w-full bg-white shadow px-4 py-8 flex justify-evenly items-center max-sm:flex-col max-sm:gap-8 sm:flex-col sm:gap-8 md:flex-row" role="navigation" aria-label="Main navigation">
     <h1 class=" text-xl font-bold text-blue-600">
         <img src="./useful_links/logo.png" alt="logo" class="size-24">
     </h1>
@@ -87,12 +87,16 @@
   
 
   <!-- Filter Toggle Button (mobile only) -->
-  <div class="lg:hidden p-4 bg-white shadow flex justify-between items-center">
+  <div class="lg:hidden p-4 bg-white shadow flex justify-between items-center my-4">
     <h2 class="text-xl font-bold">Apply Filter</h2>
     <button id="filterToggleBtn" class="text-blue-600 font-bold px-4 py-2 hover:bg-blue-200 rounded-lg">Filters</button>
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40 lg:hidden"></div>
   </div>
 
+<div class="flex flex-row-reverse flex-wrap-reverse justify-center items-center my-8">
+    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#1f1f1f"><path d="M730-450v-60h150v60H730Zm50 290-121-90 36-48 121 90-36 48Zm-82-503-36-48 118-89 36 48-118 89ZM210-200v-160h-70q-24.75 0-42.37-17.63Q80-395.25 80-420v-120q0-24.75 17.63-42.38Q115.25-600 140-600h180l200-120v480L320-360h-50v160h-60Zm250-146v-268l-124 74H140v120h196l124 74Zm100 0v-268q27 24 43.5 58.5T620-480q0 41-16.5 75.5T560-346ZM300-480Z"/></svg>
+    <h1 class="text-center font-extrabold text-3xl">Fresh Top Scoop</h1>
+</div>
 <!-- Carousels -->
 <div
   x-data="{
@@ -174,7 +178,7 @@
   <button @click="next" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/40 text-white p-2 rounded-full" aria-label="Next Slide">›</button>
 
   <!-- Dots -->
-  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 bg-white/50 px-4 py-1 rounded-full shadow">
+  <div class="absolute bottom-4 max-sm:hidden left-1/2 transform -translate-x-1/2 flex gap-2 bg-white/50 px-4 py-1 rounded-full shadow">
     <template x-for="(slide, index) in slides" :key="index">
       <button
         @click="activeSlide = index"
@@ -194,18 +198,20 @@
 
     <!-- Sidebar Filter -->
     <aside id="filterSidebar" class="bg-white p-4 rounded-xl shadow lg:col-span-1 fixed top-0 left-0 h-full w-64 transform -translate-x-full transition-transform lg:relative lg:translate-x-0 z-50">
-      <h3 class="text-lg font-semibold mb-2">Filter By</h3>
+      <h3 class="text-lg font-extrabold mb-2">Filter By</h3>
       <div class="mb-4">
-        <h4 class="font-medium">Brand</h4>
-        <div>
-          <label><input type="checkbox" value="HP" class="brand-filter mr-2" /> HP</label><br />
-          <label><input type="checkbox" value="Dell" class="brand-filter mr-2" /> Dell</label><br />
-          <label><input type="checkbox" value="Lenovo" class="brand-filter mr-2" /> Lenovo</label>
+        <h4 class="font-semibold py-4">Choose Brand</h4>
+        <div class="flex flex-col py-1">
+          <label><input type="checkbox" value="HP" class="brand-filter mr-2 "  /> HP</label><br />
+          <label><input type="checkbox" value="Dell" class="brand-filter mr-2 " /> Dell</label><br />
+          <label><input type="checkbox" value="Lenovo" class="brand-filter mr-2 " /> Lenovo</label><br>
+          <label><input type="checkbox" value="Apple" class="brand-filter mr-2 " /> Apple</label><br>
+          <label><input type="checkbox" value="Microsoft" class="brand-filter mr-2 " /> Microsoft</label>
         </div>
       </div>
 
       <div>
-        <h4 class="font-medium">Max Price</h4>
+        <h4 class="font-semibold">Max Price</h4>
         <input type="range" id="priceRange" min="100000" max="300000" value="300000" step="10000" class="w-full" />
         <div class="text-sm text-gray-600 mt-1">Up to: PKR <span id="priceValue">300000</span></div>
       </div>
@@ -234,8 +240,11 @@
     </aside>
 
     <!-- Product Grid -->
-    <section class="lg:col-span-3">
-      <h2 class="text-2xl font-bold mb-4 lg:hidden text-center">Latest Laptops</h2>
+    <section class="lg:col-span-3 mt-8">
+      <h2 class="text-3xl font-extrabold mb-4 lg:hidden text-center flex flex-wrap-reverse flex-row justify-center items-center">
+        New Tech Arrivals
+        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#1f1f1f"><path d="m187-551 106 45q18-36 38.5-71t43.5-67l-79-16-109 109Zm154 81 133 133q57-26 107-59t81-64q81-81 119-166t41-192q-107 3-192 41T464-658q-31 31-64 81t-59 107Zm229-96q-20-20-20-49.5t20-49.5q20-20 49.5-20t49.5 20q20 20 20 49.5T669-566q-20 20-49.5 20T570-566Zm-15 383 109-109-16-79q-32 23-67 43.5T510-289l45 106Zm326-694q9 136-34 248T705-418l-2 2-2 2 22 110q3 15-1.5 29T706-250L535-78l-85-198-170-170-198-85 172-171q11-11 25-15.5t29-1.5l110 22q1-1 2-1.5t2-1.5q99-99 211-142.5T881-877ZM149-325q35-35 85.5-35.5T320-326q35 35 34.5 85.5T319-155q-26 26-80.5 43T75-80q15-109 31.5-164t42.5-81Zm42 43q-14 15-25 47t-19 82q50-8 82-19t47-25q19-17 19.5-42.5T278-284q-19-18-44.5-17.5T191-282Z"/></svg>
+    </h2>
       <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
         <!-- JS Injects Products Here -->
       </div>
