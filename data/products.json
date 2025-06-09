@@ -99,7 +99,7 @@
         "id": 13,
         "name": "Lenovo PM Scheme",
         "brand": "Lenovo",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFMug5b.png",
         "specs": "i5 • 8GB RAM • 256GB SSD • 14 inch • 4GB Intel Iris",
         "price": 75000
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "name": "HP Notebook 15s",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFM1s9I.png",
         "specs": "AMD RYZEN 7 • 16GB RAM • 256GB SSD • 15.6 inch • AMD Radeon Graphics Graphics",
         "price": 85000
     },
@@ -115,7 +115,7 @@
         "id": 15,
         "name": "Microsoft Surface",
         "brand": "Microsoft",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFM6Dxe.png",
         "specs": "i5 • 8GB RAM • 128GB SSD • 13 inch • Intel Graphics",
         "price": 60000
     },
@@ -123,7 +123,7 @@
         "id": 16,
         "name": "Microsoft Surface",
         "brand": "Microsoft",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFMtbp4.png",
         "specs": "i5 • 8GB RAM • 128GB SSD • 13 inch • Intel Graphics",
         "price": 70000
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "name": "Hp Aero 635 G7",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFVEWQe.png",
         "specs": "AMD Ryzen 5 • 16GB RAM • 256GB SSD • 14 inch • AMD Radeon Graphics",
         "price": 80000
     },
@@ -139,7 +139,7 @@
         "id": 18,
         "name": "Microsoft Surface",
         "brand": "Microsoft",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFMmL41.png",
         "specs": "i7 • 8GB RAM • 256GB SSD • 13 inch • Intel Graphics",
         "price": 65000
     },
@@ -147,15 +147,15 @@
         "id": 19,
         "name": "Microsoft Surface",
         "brand": "Microsoft",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFVA6Je.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • 13 inch • Intel Graphics",
         "price": 85000
     },
     {
         "id": 20,
-        "name": "Microsoft Surface Pro 4",
-        "brand": "Microsoft",
-        "image": "./useful_links/temp.png",
+        "name": "Dell Inspiron 5415",
+        "brand": "Dell",
+        "image": "https://iili.io/FFVYVhG.png",
         "specs": "i5 • 4GB RAM • 128GB SSD • 13 inch • Intel Graphics",
         "price": 42000
     },
@@ -163,7 +163,7 @@
         "id": 21,
         "name": "Dell Latitude 7420",
         "brand": "Dell",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFVNWZl.png",
         "specs": "i7 • 32GB RAM • 512GB SSD • 14 inch • Intel Graphics",
         "price": 150000
     },
@@ -171,7 +171,7 @@
         "id": 22,
         "name": "Dell XPS 15 5540 Precision",
         "brand": "Dell",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFVUgJS.png",
         "specs": "i7 • 32GB RAM • 512GB SSD • 15 inch • T1000 Graphics",
         "price": 165000
     },
@@ -179,15 +179,15 @@
         "id": 23,
         "name": "Dell XPS 15 9550",
         "brand": "Dell",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFV6X4f.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • 15 inch • NVIDIA GTX 960",
         "price": 90000
     },
     {
         "id": 24,
-        "name": "Dell 5550 Precision",
+        "name": "Dell Precision 5550",
         "brand": "Dell",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFVpeLl.png",
         "specs": "i7 • 32GB RAM • 512GB SSD • 15 inch • 4GB T1000 GPU",
         "price": 220000
     },
