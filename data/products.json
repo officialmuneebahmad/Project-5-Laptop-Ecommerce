@@ -195,7 +195,7 @@
         "id": 25,
         "name": "Lenovo Thinkpad P53s",
         "brand": "Lenovo",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFkmfvR.png",
         "specs": "i7 • 32GB RAM • 512GB SSD • 15 inch • 2GB NVIDIA <br> CARD",
         "price": 95000
     },
@@ -203,7 +203,7 @@
         "id": 26,
         "name": "HP Pavilion Gaming Laptop",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFv2Dzv.png",
         "specs": "i5 • 32GB RAM • 512GB SSD • 15 inch • Iris Xe + <br> 4GB RTX 3050",
         "price": 190000
     },
@@ -211,7 +211,7 @@
         "id": 27,
         "name": "HP ZBOOK 15u G3",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFvxMvV.png",
         "specs": "i7 • 8GB RAM • 256GB SSD • 15 inch • 2GB NVIDIA <br> CARD",
         "price": 60000
     },
@@ -219,7 +219,7 @@
         "id": 28,
         "name": "Apple Macbook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFveHYJ.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • 16 inch • 4GB Graphics Card",
         "price": 135000
     },
@@ -227,7 +227,7 @@
         "id": 29,
         "name": "Apple MacBook Pro 2018",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFvQ9m7.png",
         "specs": "i9 • 32GB RAM • 1000GB / 1TB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
         "price": 140000
     },
@@ -235,7 +235,7 @@
         "id": 30,
         "name": "Apple MacBook Air 2020",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF82mMl.png",
         "specs": "i5 • 8GB RAM • 512GB SSD • 13.3 inch • Intel UHD Graphics",
         "price": 120000
     },
@@ -243,7 +243,7 @@
         "id": 31,
         "name": "Apple MacBook Air 2018",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FF8fD57.png",
         "specs": "i5 • 16GB RAM • 256GB SSD • 13.3 inch • Intel UHD Graphics",
         "price": 95000
     },
@@ -251,7 +251,7 @@
         "id": 32,
         "name": "Apple MacBook Pro 2018",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK9tVwJ.png",
         "specs": "i9 • 32GB RAM • 2000GB / 2TB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
         "price": 150000
     },
@@ -259,7 +259,7 @@
         "id": 33,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK9yGLb.png",
         "specs": "i9 • 32GB RAM • 512GB SSD • 16 inch • 4GB Radeon Graphics Graphics",
         "price": 160000
     },
@@ -267,7 +267,7 @@
         "id": 34,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKHKfR4.png",
         "specs": "i7 • 32GB RAM • 1000GB / 1TB SSD • 16 inch • 4GB Radeon Graphics Graphics",
         "price": 160000
     },
@@ -275,7 +275,7 @@
         "id": 35,
         "name": "Apple MacBook Pro 2018",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKHq6VS.png",
         "specs": "i9 • 16GB RAM • 1000GB / 1TB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
         "price": 140000
     },
@@ -283,7 +283,7 @@
         "id": 36,
         "name": "Apple MacBook Pro 2018",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKHCREP.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
         "price": 125000
     },
@@ -291,7 +291,7 @@
         "id": 37,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKHAcIn.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • 16 inch • 4GB Radeon Graphics Graphics",
         "price": 135000
     },
@@ -299,7 +299,7 @@
         "id": 38,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKH7dqG.png",
         "specs": "i9 • 32GB RAM • 512GB SSD • 15.4 inch • 4GB Radeon Graphics Graphics",
         "price": 150000
     },
