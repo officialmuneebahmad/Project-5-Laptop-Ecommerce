@@ -387,7 +387,7 @@
         "id": 49,
         "name": "Dell XPS 9510",
         "brand": "Dell",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK22NM7.png",
         "specs": "i7 • 32GB RAM • 1000GB / 1TB SSD • 15.6 inch • 4GB RTX 3050 Ti",
         "price": 285000
     },
@@ -395,7 +395,7 @@
         "id": 50,
         "name": "Lenovo X13",
         "brand": "Lenovo",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK2olPR.png",
         "specs": "AMD Ryzen 5 • 32GB RAM • 512GB SSD • ~14 inch • AMD Graphics",
         "price": 75000
     },
@@ -403,7 +403,7 @@
         "id": 51,
         "name": "Lenovo X1 Carbon",
         "brand": "Lenovo",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK2g1qP.png",
         "specs": "i7 • 8GB RAM • 256GB SSD • ~14 inch • Intel Graphics",
         "price": 60000
     },
@@ -411,7 +411,7 @@
         "id": 52,
         "name": "Hp Probook 450 G6",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJsX29.png",
         "specs": "i5 • 16GB RAM • 256GB SSD • ~15.4 inch • Intel Graphics",
         "price": 65000
     },
@@ -419,7 +419,7 @@
         "id": 53,
         "name": "Hp Elitebook 640 G10",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK2ma8Q.png",
         "specs": "i5 • 16GB RAM • 512GB SSD • ~14 inch • Intel Graphics",
         "price": 155000
     },
@@ -427,7 +427,7 @@
         "id": 54,
         "name": "Dell Precision 5540",
         "brand": "Dell",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FFVUgJS.md.png",
         "specs": "i7 • 32GB RAM • 512GB SSD • ~15.4 inch • Intel Graphics",
         "price": 165000
     },
@@ -435,7 +435,7 @@
         "id": 55,
         "name": "Hp Zbook 14 Fire Fly 🔥",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK3fhyg.png",
         "specs": "i5 • 16GB RAM • 256GB SSD • ~14.5 inch • Intel Graphics GPU",
         "price": 95000
     },
@@ -443,7 +443,7 @@
         "id": 56,
         "name": "Hp Vostro 5391",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK3zdDF.png",
         "specs": "i7 • 8GB RAM • 512GB SSD • ~13.3 inch • 2GB Graphics Card",
         "price": 100000
     },
@@ -451,7 +451,7 @@
         "id": 57,
         "name": "Lenovo Thinkpad T480",
         "brand": "Lenovo",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK35MzB.png",
         "specs": "i5 • 8GB RAM • 256GB SSD • ~14 inch • Intel UHD Graphics",
         "price": 60000
     },
@@ -459,7 +459,7 @@
         "id": 58,
         "name": "Hp Elitebook 840 G7",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK3VPRt.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • ~14 inch • Intel UHD Graphics",
         "price": 100000
     },
@@ -467,7 +467,7 @@
         "id": 59,
         "name": "Dell XPS 13 9360 Kaby Lake",
         "brand": "Dell",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FK3k6dJ.png",
         "specs": "i7 • 8GB RAM • 512GB SSD • ~14 inch • Intel UHD Graphics",
         "price": 80000
     }
