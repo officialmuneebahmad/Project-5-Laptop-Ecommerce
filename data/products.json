@@ -307,7 +307,7 @@
         "id": 39,
         "name": "Apple MacBook Pro 2017",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKH8Xa4.png",
         "specs": "i7 • 16GB RAM • 512GB SSD • 15.4 inch • 2GB Radeon Graphics GPU",
         "price": 85000
     },
@@ -315,7 +315,7 @@
         "id": 40,
         "name": "Apple MacBook Pro 2016",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJdKX9.png",
         "specs": "i7 • 16GB RAM • 256GB SSD • 15.4 inch • 2GB Radeon Graphics Graphics",
         "price": 80000
     },
@@ -323,7 +323,7 @@
         "id": 41,
         "name": "Apple MacBook Pro 2015",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJTnRt.png",
         "specs": "i7 • 16GB RAM • 256GB SSD • 15.4 inch • Intel Graphics",
         "price": 60000
     },
@@ -331,7 +331,7 @@
         "id": 42,
         "name": "Hp Elitebook 840 G5",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJETXV.png",
         "specs": "i5 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
         "price": 65000
     },
@@ -339,7 +339,7 @@
         "id": 43,
         "name": "Hp Elitebook 830 G5",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJWPMQ.png",
         "specs": "i7 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
         "price": 70000
     },
@@ -347,7 +347,7 @@
         "id": 44,
         "name": "Hp Elitebook 830 G6",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJejeI.png",
         "specs": "i5 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
         "price": 70000
     },
@@ -355,7 +355,7 @@
         "id": 45,
         "name": "Hp Elitebook 850 G5",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJsX29.png",
         "specs": "i7 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
         "price": 80000
     },
@@ -363,7 +363,7 @@
         "id": 46,
         "name": "Hp Elitebook 850 G6",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKJsX29.png",
         "specs": "i7 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
         "price": 80000
     },
@@ -371,7 +371,7 @@
         "id": 47,
         "name": "Hp Elitebook 840 G7",
         "brand": "HP",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKd9HyN.png",
         "specs": "i5 • 16GB RAM • 256GB SSD • ~14.6 inch • Intel HD Graphics",
         "price": 90000
     },
@@ -379,7 +379,7 @@
         "id": 48,
         "name": "Apple MacBook Pro 2019",
         "brand": "Apple",
-        "image": "./useful_links/temp.png",
+        "image": "https://iili.io/FKHAcIn.png",
         "specs": "i7 • 32GB RAM • 512GB SSD • 16 inch • 4GB Radeon Graphics Graphics",
         "price": 150000
     },
