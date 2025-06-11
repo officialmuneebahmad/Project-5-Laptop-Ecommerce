@@ -49,7 +49,7 @@ function renderProducts(products) {
       <p class="text-blue-600 font-semibold mt-1">PKR ${product.price.toLocaleString()}</p>
       <div class="mt-3 flex flex-col-reverse gap-4 justify-between">
         <button onclick="viewProduct(${product.id})" class="bg-gray-200 text-sm px-4 py-2 rounded-lg hover:bg-gray-300">View Details</button>
-        <button class="bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-700">Call / Whatsapp</button>
+        <a class="bg-blue-600 text-white text-center font-semibold px-4 py-2 rounded-lg hover:bg-blue-700" href="https://wa.link/laptopmartmultan" title="Call / Message">Call / Whatsapp</a>
       </div>
     `;
     productGrid.appendChild(card);

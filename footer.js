@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const footerHTML = `
 <!-- ======================== FOOTER =========================================-->
 
-     <footer id="footer" class="text-[#fafafa] flex flex-col lg:flex-row lg:items-start  justify-between items-center gap-y-8 p-4 mt-8">
+     <footer id="footer" class="text-[#282828] flex flex-col lg:flex-row lg:items-start  justify-between items-center gap-y-8 p-4 mt-8">
 
         <div class=" flex flex-col justify-center items-center">
             <img id="logo" class="size-36 rounded-3xl " src="https://iili.io/3MhZ5pS.png" alt="logo">
@@ -15,26 +15,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div class="flex flex-col px-4 text-center ">
             <h1 class="text-lg font-bold mb-2">USEFUL LINKS</h1>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="./useful_links/about.html">About Us</a>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="./useful_links/terms_con.html">Terms & Conditions</a>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="./useful_links/pri_policy.html">Privacy Policy</a>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="https://wa.link/laptopmartmultan">
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white" href="./useful_links/about.html">About Us</a>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white" href="./useful_links/terms_con.html">Terms & Conditions</a>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white" href="./useful_links/pri_policy.html">Privacy Policy</a>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white" href="https://wa.link/laptopmartmultan">
                 <img class="size-40" src="https://i.ibb.co/5xMWN1fZ/QR.png" alt="QR-CODE">
             </a>            
         </div>
 
         <div class="flex flex-col px-4 text-center ">
-            <h1 class="text-lg font-bold mb-2">SOCIAL MEDIA</h1>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="https://bit.ly/4fSH7tf">Facebook</a>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="https://bit.ly/3YUprGO">Twitter</a>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="https://bit.ly/3Vquiia">Instagram</a>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="https://bit.ly/4fOyxvm">TikTok</a>
-            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-300" href="https://bit.ly/41ggYR3">Youtube</a>
+            <h1 class="text-lg font-bold mb-2 hover:cursor-pointer">SOCIAL MEDIA</h1>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white hover:cursor-pointer " href="https://bit.ly/4fSH7tf">Facebook</a>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white hover:cursor-pointer " href="https://bit.ly/3YUprGO">Twitter</a>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white hover:cursor-pointer " href="https://bit.ly/3Vquiia">Instagram</a>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white hover:cursor-pointer " href="https://bit.ly/4fOyxvm">TikTok</a>
+            <a class="hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-700 font-medium hover:text-white hover:cursor-pointer " href="https://bit.ly/41ggYR3">Youtube</a>
         </div>
 
         <div class="flex flex-col px-4 text-center items-center justify-between ">
             <h1 class="text-lg font-bold mb-2">KNOW ABOUT CEO ?</h1>
-            <a class=" hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg text-center p-1 px-4 underline text-blue-300" href="./useful_links/junaid_umar.html">Click Here</a>
+            <a class=" hover:bg-blue-600 hover:text-bgBlue my-1 rounded-lg shadow-2xl text-center p-1 px-4 bg-blue-500 text-white" href="./useful_links/junaid_umar.html">Click Here</a>
         </div>
 
         <div class="h-80 w-80"> 
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
      </footer>
 
-     <div id="web-end" class="flex flex-col gap-y-4 justify-between items-center p-4 mt-8 bg-[#252054] text-white">
+     <div id="web-end" class="flex flex-col gap-y-4 justify-between items-center p-4 mt-8 bg-[#2563EB] text-white">
         <p>&copy; Copyright By LaptopMart (Multan) 💻 Team 2024 - 2025. All Rights Reserved</p>
         <p class="flex justify-around items-center"> Made with ❤️ from <img id="pakflag" class="size-8 mx-4" src="https://iili.io/3MhZxBs.png" alt="pak-flag"></p>
      </div>
